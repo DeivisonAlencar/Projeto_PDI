@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    font-family: "Roboto", serif;
+    color: #292929;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+header{
+    padding: 1em;
+}
+
+img{
+    padding: 1em;
+    width: 10em;
+    margin: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+header p{
+    color: black;
+    text-align: center;
+    margin-left: 13em;
+    margin-right: 13em;
+}
+
+fieldset{
+    text-align: center;
+    width: 20em;
+    height: 10em;
+    margin: auto;
+    padding: 2em;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+fieldset h3 {
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+input[type="email"], input[type="password"] {
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+button{
+    width: 30%;
+    margin: 0.5em;
+    padding: 0.3em;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    padding: 2em;
+}
